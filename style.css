@@ -1,6 +1,6 @@
 
 body{
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -20,7 +20,7 @@ a:hover{
 
 .container{
     width: 90%;
-    border:5px #f4f4f4 solid;
+    border:5px #ffffff solid;
     margin: 5px;
     padding: 10px;
 }
@@ -34,7 +34,7 @@ a:hover{
 
 .box-3{
     margin: auto;
-    background-color: gray;
+    background-color: white;
     color: darkblue;
 }
 
@@ -50,11 +50,37 @@ a:hover{
     display: flex;
     justify-content: center;
 }
-
+.d_nav {
+    color: #271d3c;
+    background-color: #faf9fa;
+    border-bottom: 2px solid hsla(0,0%,52.2%,.1);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    transition: transform .3s;
+    flex-direction: column;
+}
+.d_nav--content {
+    height: 60px;
+    min-height: 60px;
+    width: 100%;
+    padding: 0 12px;
+    gap: 8px;
+}
+.d_nav--content, .logo {
+    display: flex;
+    align-items: center;
+}
+.align-center{
+    align-items: center;
+}
 .navbar{
     padding-left: 8px;
-    padding-top: 3px;  
-    padding-bottom: 3px;
+    padding-top: 15px;  
+    padding-bottom: 15px;
     background-color: #bababa;
 }
 
