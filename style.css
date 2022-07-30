@@ -69,7 +69,9 @@ a:hover{
     padding: 0 12px;
     gap: 9px;
 }
-
+.d_nav--content, .logo {
+    text-align: center;
+}
 .align-center{
     text-align: center;
 }
