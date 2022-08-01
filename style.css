@@ -17,7 +17,13 @@ a{
 a:hover{
     color: darkblue;
 }
-
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border: none;
+}
 .container{
     width: 90%;
     border:5px #ffffff solid;
@@ -27,7 +33,9 @@ a:hover{
     margin-bottom: 10px;
     padding: 10px;
 }
-
+.clr{
+    clear: both;
+}
 .box-1{
     width: 100%;
     border:5px black solid;
@@ -100,4 +108,44 @@ a:hover{
     padding: 8px;
     width: 100px;
 }
-
+.block{
+    float: left;
+    width: 33%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+}
+.p-box h1{
+    position: absolute;
+    top: 40px;
+}
+.p-box h2{
+    position: absolute;
+    top: 90px;
+}
+.p-box p{
+    position: absolute;
+    top: 130px;
+}
