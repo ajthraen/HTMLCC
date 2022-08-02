@@ -156,20 +156,37 @@ a:hover{
 .my-list li:nth-child(even){
     background: gray;
 }
-.boxes{
+.container2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
 }
-.boxes a{
+.big-box{
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
+    width: 800px;
+    border: 3px solid #000;
+    margin: 20px;
+}
+.boxes{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.boxes a{
+    background-color: white;
+    font-size: 20px;
     border: 1px solid #000;
-    height: 50px;
     width: 125px;
-    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
-    text-align: center center;
+    text-align: right;
 }
